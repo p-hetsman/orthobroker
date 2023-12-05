@@ -4,41 +4,36 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-
-import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
-import { red } from '@mui/material/colors';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 import { Grid } from "@mui/material";
 import data from '../data';
 
-
 export default () => {
 
-
     return (
-        <Grid container={true} gap={"10px"}>
-            {data.comments.map((el) => {
+        <Grid container={true} gap={"40px"}>
+            {data.products.map((el) => {
                 return (
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 345 }} style={{
+                        backgroundImage: `url(${el.picUrl})`, width: 240, height: 240,
+                        backgroundRepeat: 'no - repeat',
+                        backgroundSize: 'cover',
+                    }}>
                         <CardHeader
-                            avatar={
-                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                                    {el.body.slice(0, 1)}
-                                </Avatar>
-                            }
                             action={
                                 <IconButton aria-label="settings">
                                     <MoreVertIcon />
                                 </IconButton>
                             }
-                            title={el.body.slice(0, 10)}
-                            subheader={new Date(el.created_at).toLocaleDateString()}
+                            title={el.title}
                         />
-                        <CardContent>{el.body}</CardContent>
-                        <CardActions>
-                        </CardActions>
+                        <CardContent>
+
+                            <CardActions>
+                            </CardActions>
+                        </CardContent>
                     </Card>
                 );
             })}

@@ -14,23 +14,21 @@ import tags from "./tags";
 import posts from "./posts";
 import users from "./users";
 import events from "./events";
-import Dashboard from "./dashboard/Dashboard";
-import recentNews from "./recent-news";
-import archivedNews from "./archived-news";
+import productTemplates from "./product-templates"
 import analytics from "./analytics";
 import contacts from "./contacts";
 import contactUs from "./contactUs";
 import inProgress from "./inProgress";
-import deals from "./deals";
+import theme from "./Theme";
 
 export const App = () => (
   <Admin
     authProvider={authProvider}
     dataProvider={dataProvider}
     i18nProvider={i18nProvider}
-    title="Example Admin"
+    title="Orthosolid"
     layout={Layout}
-    dashboard={Dashboard}
+    theme={theme}
   >
     <CustomRoutes noLayout>
       <Route
@@ -38,22 +36,16 @@ export const App = () => (
         element={<CustomRouteNoLayout title="Posts from /custom" />}
       />
     </CustomRoutes>
-    <Resource
-      name="recent-news"
-      options={{
-        label: "Recent News",
-      }}
-      {...recentNews}
-    />
+
+    <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
-    <Resource name="fundingData" options={{label: 'Funding Data' }} {...inProgress} />
+    <Resource name="fundingData" options={{ label: 'Funding Data' }} {...inProgress} />
     <Resource name="posts" {...posts} />
     <Resource name="comments" {...comments} />
-    <Resource name="deals" {...deals} />
     <Resource name="tags" {...tags} />
-    <Resource name="marketScans" options={{label: 'Market Scans' }} {...inProgress}  />
-    <Resource name="memberList" options={{label: 'MList' }} {...inProgress}  />
+    <Resource name="marketScans" options={{ label: 'Market Scans' }} {...inProgress} />
+    <Resource name="memberList" options={{ label: 'MList' }} {...inProgress} />
     <Resource name="analytics" {...analytics} />
     <Resource name="contactUs" options={{
       label: "Contact Us",

@@ -506,4 +506,128 @@ export default {
             role: 'user',
         },
     ],
+    products: [
+
+        {
+            "id": "570e9715-2671-4cad-bb24-5cc1c5f1de78",
+            "title": "Charity2",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-08-31T10:28:40.206Z"
+        },
+        {
+            "id": "6dec638a-7592-476a-902d-bc8e1ffd3081",
+            "title": "Dorothy.Marquardt29",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-05-03T17:12:17.088Z"
+        },
+        {
+            "id": "ec8f3cee-9cdf-41fd-a1e2-80622fbc970f",
+            "title": "Creola14",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-07-06T19:25:27.734Z"
+        },
+        {
+            "id": "76c13297-03bb-430a-899c-c599fe8ef86d",
+            "title": "Willa_Hoeger",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2022-12-31T13:39:15.972Z"
+        },
+        {
+            "id": "7d4573dd-3847-4293-a9f9-ad20c8c33ad4",
+            "title": "Melvin.Ullrich21",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-04-30T11:03:31.007Z"
+        },
+        {
+            "id": "2e4ad0e1-3a74-45ea-af2c-5424930ca85f",
+            "title": "Hertha.Haag",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-08-29T09:38:44.654Z"
+        },
+        {
+            "id": "a88b34ae-0f8a-4d3a-b2c8-c0e0d4d07d12",
+            "title": "Else71",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-01-23T10:06:48.346Z"
+        },
+        {
+            "id": "f3654209-d0a0-466a-9cff-fdf456251784",
+            "title": "Evalyn.Bruen",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-02-03T17:04:02.631Z"
+        },
+        {
+            "id": "0e72c741-0d15-47ee-854b-69dfb9c5cf92",
+            "title": "Walter28",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-06-26T06:05:40.209Z"
+        },
+        {
+            "id": "ec4893b7-9d89-4227-951d-feb6143a77c4",
+            "title": "Yasmin_Klocko",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-10-08T00:31:16.697Z"
+        },
+        {
+            "id": "31ce8f02-dcd3-4ba9-9d14-178ee29c5461",
+            "title": "Anabelle65",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-03-31T12:30:33.777Z"
+        },
+        {
+            "id": "2bba7cab-08ce-445b-9e33-faeed7333fee",
+            "title": "Gunner42",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-08-13T16:01:53.165Z"
+        },
+        {
+            "id": "37bac1e6-b73d-4416-a4ba-4928a8180b30",
+            "title": "Merle55",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-08-30T20:57:35.835Z"
+        },
+        {
+            "id": "f3fba8a3-768f-44f0-85db-61680781a24a",
+            "title": "Kaitlin.Ziemann28",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-02-01T04:46:50.602Z"
+        },
+        {
+            "id": "622daae0-7c86-4ef8-8b22-95bb3148c139",
+            "title": "Pauline33",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-04-29T15:58:56.214Z"
+        },
+        {
+            "id": "24e936d0-a78a-4d5e-aa58-61e6a1a257a1",
+            "title": "Hermann81",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-06-18T12:38:44.960Z"
+        },
+        {
+            "id": "26780101-cc79-410c-86e9-6addd70aac7f",
+            "title": "Randi_Miller1",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-05-29T12:16:26.166Z"
+        },
+        {
+            "id": "76cb64c0-c803-42c8-a419-2d3344c36bce",
+            "title": "Wilson.Lebsack26",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-08-26T10:52:02.927Z"
+        },
+        {
+            "id": "38d26a6a-3759-426e-a111-0393bd3ca08d",
+            "title": "Thelma_Lynch12",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-12-04T14:31:08.957Z"
+        },
+        {
+            "id": "e24c821d-b2ae-4d6c-9bb8-e9b0e088e14c",
+            "title": "Justyn39",
+            "picUrl": "https://loremflickr.com/640/480/technics",
+            "createdAt": "2023-07-22T13:30:49.612Z"
+        }
+
+    ]
 };
