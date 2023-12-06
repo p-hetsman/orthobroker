@@ -44,7 +44,7 @@ const TypeSearch: FunctionComponent = () => {
     }, [searchTerm]);
 
     return (
-        <div style={{ backgroundColor: 'white' }}>
+        < >
             <div style={{ paddingLeft: '40px' }}>
                 <FormControl className={search}>
                     <TextField
@@ -111,7 +111,7 @@ const TypeSearch: FunctionComponent = () => {
                 })}
             </Grid>
 
-        </div >
+        </ >
     );
 };
 
