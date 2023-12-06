@@ -36,9 +36,13 @@ export const App = () => (
         element={<CustomRouteNoLayout title="Posts from /custom" />}
       />
     </CustomRoutes>
-
     <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
-    <Resource name="events" {...events} />
+    <Resource name="clients" {...inProgress} />
+    <Resource name="Measurement_data" {...inProgress} />
+    <Resource name="designs" {...inProgress} />
+    <Resource name="orders" {...inProgress} />
+
+    {/*     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
     <Resource name="posts" {...posts} />
     <Resource name="comments" {...comments} />
@@ -46,7 +50,7 @@ export const App = () => (
     <Resource name="analytics" {...analytics} />
     <Resource name="contactUs" options={{
       label: "Contact Us",
-    }} {...contactUs} />
+    }} {...contactUs} /> */}
     {(permissions) => (
       <>
         {permissions ? <Resource name="users" {...users} /> : null}
