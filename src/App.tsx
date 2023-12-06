@@ -26,7 +26,7 @@ export const App = () => (
     authProvider={authProvider}
     dataProvider={dataProvider}
     i18nProvider={i18nProvider}
-    title="Orthosolid"
+    title="Orthobroker"
     layout={Layout}
     theme={theme}
   >
@@ -40,12 +40,9 @@ export const App = () => (
     <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
-    <Resource name="fundingData" options={{ label: 'Funding Data' }} {...inProgress} />
     <Resource name="posts" {...posts} />
     <Resource name="comments" {...comments} />
     <Resource name="tags" {...tags} />
-    <Resource name="marketScans" options={{ label: 'Market Scans' }} {...inProgress} />
-    <Resource name="memberList" options={{ label: 'MList' }} {...inProgress} />
     <Resource name="analytics" {...analytics} />
     <Resource name="contactUs" options={{
       label: "Contact Us",
