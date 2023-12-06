@@ -19,6 +19,7 @@ import analytics from "./analytics";
 import contacts from "./contacts";
 import contactUs from "./contactUs";
 import inProgress from "./inProgress";
+import designs from "./designs"
 import theme from "./Theme";
 
 export const App = () => (
@@ -36,10 +37,10 @@ export const App = () => (
         element={<CustomRouteNoLayout title="Posts from /custom" />}
       />
     </CustomRoutes>
-    <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
+    <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates} />
     <Resource name="clients" {...inProgress} />
     <Resource name="Measurement_data" {...inProgress} />
-    <Resource name="designs" {...inProgress} />
+    <Resource name="designs" {...designs} options={{ label: 'Designs' }} />
     <Resource name="orders" {...inProgress} />
 
     {/*     <Resource name="events" {...events} />
