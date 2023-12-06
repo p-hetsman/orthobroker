@@ -89,7 +89,7 @@ const TypeSearch: FunctionComponent = () => {
                                 style={{ textDecoration: 'none' }}
                             >
                                 <div style={{
-                                    backgroundImage: `url(${el.picUrl})`, width: 240, height: 240,
+                                    backgroundImage: `url(${el.picUrl + '?' + `random=${Math.random()}`})`, width: 240, height: 240,
                                     backgroundRepeat: 'no - repeat',
                                     backgroundSize: 'cover',
                                     color: 'whitesmoke',
