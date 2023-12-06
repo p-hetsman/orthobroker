@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(231, 231, 231);
+    background-color: white;
     display: flex;
     padding-top: 40px;
     align-items: center;
@@ -8,5 +8,5 @@
 .search {
     height: 100%;
     padding-top: 40px;
-    background-color: rgb(231, 231, 231);
+    background-color: white;
 }
