@@ -100,7 +100,7 @@ const categories = [
     { name: 'Lifestyle', id: 'lifestyle' },
 ];
 
-const PostEdit = () => {
+const ClientEdit = () => {
     const { permissions } = usePermissions();
     return (
         <Edit title={<PostTitle />} actions={<EditActions />}>
@@ -267,4 +267,4 @@ const PostEdit = () => {
     );
 };
 
-export default PostEdit;
+export default ClientEdit;

@@ -11,7 +11,7 @@ import Layout from "./Layout";
 import "./App.css";
 
 import tags from "./tags";
-import posts from "./posts";
+import posts from "./clients";
 import users from "./users";
 import events from "./events";
 import productTemplates from "./product-templates"
@@ -37,14 +37,14 @@ export const App = () => (
       />
     </CustomRoutes>
     <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
-    <Resource name="clients" {...inProgress} />
+    <Resource name="clients" {...posts} />
     <Resource name="Measurement_data" {...inProgress} />
     <Resource name="designs" {...inProgress} />
     <Resource name="orders" {...inProgress} />
 
     {/*     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
-    <Resource name="posts" {...posts} />
+    <Resource name="clients" {...posts} />
     <Resource name="comments" {...comments} />
     <Resource name="tags" {...tags} />
     <Resource name="analytics" {...analytics} />
