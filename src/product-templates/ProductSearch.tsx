@@ -78,7 +78,6 @@ const TypeSearch: FunctionComponent = () => {
                 paddingTop: '40px',
                 paddingBottom: '40px',
                 alignItems: 'center',
-                justifyContent: 'center',
                 gap: '40px'
             }}>
 
@@ -89,21 +88,22 @@ const TypeSearch: FunctionComponent = () => {
                                 to={'/3d/' + el.id}
                                 style={{ textDecoration: 'none' }}
                             >
-                                <Card sx={{ maxWidth: 345 }} style={{
+                                <div style={{
                                     backgroundImage: `url(${el.picUrl})`, width: 240, height: 240,
                                     backgroundRepeat: 'no - repeat',
                                     backgroundSize: 'cover',
-                                    color: 'whitesmoke'
+                                    color: 'whitesmoke',
+                                    borderRadius: '4px',
+                                    boxShadow: '0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12)'
                                 }}>
                                     <CardHeader
                                         title={el.title}
                                     />
                                     <CardContent>
-
                                         <CardActions>
                                         </CardActions>
                                     </CardContent>
-                                </Card>
+                                </div>
                             </Link>
                         </div>
 
