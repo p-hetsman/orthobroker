@@ -1,5 +1,5 @@
-import { Admin, Resource, CustomRoutes } from "react-admin"; // eslint-disable-line import/no-unresolved
-import { Route } from "react-router-dom";
+import {Admin, Resource, CustomRoutes} from "react-admin"; // eslint-disable-line import/no-unresolved
+import {Route} from "react-router-dom";
 
 import authProvider from "./authProvider";
 import comments from "./comments";
@@ -19,30 +19,31 @@ import analytics from "./analytics";
 import contacts from "./contacts";
 import contactUs from "./contactUs";
 import inProgress from "./inProgress";
+import designs from "./designs"
 import theme from "./Theme";
 
 export const App = () => (
-  <Admin
-    authProvider={authProvider}
-    dataProvider={dataProvider}
-    i18nProvider={i18nProvider}
-    title="Orthobroker"
-    layout={Layout}
-    theme={theme}
-  >
-    <CustomRoutes noLayout>
-      <Route
-        path="/custom"
-        element={<CustomRouteNoLayout title="Posts from /custom" />}
-      />
-    </CustomRoutes>
-    <Resource name="templates" options={{ label: 'Product Templates' }} {...productTemplates}></Resource>
-    <Resource name="clients" {...posts} />
-    <Resource name="Measurement_data" {...inProgress} />
-    <Resource name="designs" {...inProgress} />
-    <Resource name="orders" {...inProgress} />
+    <Admin
+        authProvider={authProvider}
+        dataProvider={dataProvider}
+        i18nProvider={i18nProvider}
+        title="Orthobroker"
+        layout={Layout}
+        theme={theme}
+    >
+        <CustomRoutes noLayout>
+            <Route
+                path="/custom"
+                element={<CustomRouteNoLayout title="Posts from /custom"/>}
+            />
+        </CustomRoutes>
+        <Resource name="templates" options={{label: 'Product Templates'}} {...productTemplates} />
+        <Resource name="clients" {...posts} />
+        <Resource name="Measurement_data" {...inProgress} />
+    <Resource name="designs" {...designs} options={{ label: 'Designs' }} />
+        <Resource name="orders" {...inProgress} />
 
-    {/*     <Resource name="events" {...events} />
+        {/*     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
     <Resource name="clients" {...posts} />
     <Resource name="comments" {...comments} />
@@ -51,28 +52,28 @@ export const App = () => (
     <Resource name="contactUs" options={{
       label: "Contact Us",
     }} {...contactUs} /> */}
-    {(permissions) => (
-      <>
-        {permissions ? <Resource name="users" {...users} /> : null}
-        <CustomRoutes noLayout>
-          <Route
-            path="/custom1"
-            element={<CustomRouteNoLayout title="Posts from /custom1" />}
-          />
-        </CustomRoutes>
+        {(permissions) => (
+            <>
+                {permissions ? <Resource name="users" {...users} /> : null}
+                <CustomRoutes noLayout>
+                    <Route
+                        path="/custom1"
+                        element={<CustomRouteNoLayout title="Posts from /custom1"/>}
+                    />
+                </CustomRoutes>
+                <CustomRoutes>
+                    <Route
+                        path="/custom2"
+                        element={<CustomRouteLayout title="Posts from /custom2"/>}
+                    />
+                </CustomRoutes>
+            </>
+        )}
         <CustomRoutes>
-          <Route
-            path="/custom2"
-            element={<CustomRouteLayout title="Posts from /custom2" />}
-          />
+            <Route
+                path="/custom3"
+                element={<CustomRouteLayout title="Posts from /custom3"/>}
+            />
         </CustomRoutes>
-      </>
-    )}
-    <CustomRoutes>
-      <Route
-        path="/custom3"
-        element={<CustomRouteLayout title="Posts from /custom3" />}
-      />
-    </CustomRoutes>
-  </Admin>
+    </Admin>
 );
