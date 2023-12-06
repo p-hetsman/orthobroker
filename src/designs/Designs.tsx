@@ -5,6 +5,8 @@ import {
     tablePaginationClasses as classes,
 } from '@mui/base/TablePagination';
 
+import { mockDesigns } from './mock-data';
+
 export default function TableUnstyled() {
     const [page, setPage] = React.useState(0);
     const [rowsPerPage, setRowsPerPage] = React.useState(5);
@@ -29,12 +31,14 @@ export default function TableUnstyled() {
 
     return (
         <Root sx={{ width: '100%' }}>
-            <table aria-label="custom pagination table">
+            <table aria-label="custom pagination table" style={{ marginTop: '63px' }}>
                 <thead>
                     <tr>
-                        <th>Dessert</th>
-                        <th>Calories</th>
-                        <th>Fat</th>
+                        <th>Product Template</th>
+                        <th>Client</th>
+                        <th>Measurement  data</th>
+                        <th>Created</th>
+                        <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,14 +46,21 @@ export default function TableUnstyled() {
                         ? rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                         : rows
                     ).map((row) => (
-                        <tr key={row.name}>
-                            <td>{row.name}</td>
+                        <tr key={row.productTemplate}>
+                            <td>{row.productTemplate}</td>
                             <td style={{ width: 160 }} align="right">
-                                {row.calories}
+                                {row.client}
                             </td>
                             <td style={{ width: 160 }} align="right">
-                                {row.fat}
+                                {row.measurementData}
                             </td>
+                            <td style={{ width: 160 }} align="right">
+                                {new Date(row.date).toLocaleDateString()}
+                            </td>
+                            <td style={{ width: 160 }} align="right">
+                                {row.status}
+                            </td>
+
                         </tr>
                     ))}
                     {emptyRows > 0 && (
@@ -62,7 +73,7 @@ export default function TableUnstyled() {
                     <tr>
                         <CustomTablePagination
                             rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
-                            colSpan={3}
+                            colSpan={5}
                             count={rows.length}
                             rowsPerPage={rowsPerPage}
                             page={page}
@@ -85,25 +96,8 @@ export default function TableUnstyled() {
     );
 }
 
-function createData(name: string, calories: number, fat: number) {
-    return { name, calories, fat };
-}
 
-const rows = [
-    createData('Cupcake', 305, 3.7),
-    createData('Donut', 452, 25.0),
-    createData('Eclair', 262, 16.0),
-    createData('Frozen yoghurt', 159, 6.0),
-    createData('Gingerbread', 356, 16.0),
-    createData('Honeycomb', 408, 3.2),
-    createData('Ice cream sandwich', 237, 9.0),
-    createData('Jelly Bean', 375, 0.0),
-    createData('KitKat', 518, 26.0),
-    createData('Lollipop', 392, 0.2),
-    createData('Marshmallow', 318, 0),
-    createData('Nougat', 360, 19.0),
-    createData('Oreo', 437, 18.0),
-].sort((a, b) => (a.calories < b.calories ? -1 : 1));
+const rows = mockDesigns.sort((a, b) => (a.client < b.client ? -1 : 1));
 
 const grey = {
     50: '#F3F6F9',
