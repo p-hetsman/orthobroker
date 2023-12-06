@@ -39,7 +39,7 @@ const PostCreateToolbar = () => {
     return (
         <Toolbar>
             <SanitizedBox display={'flex'} width={300} justifyContent={'space-between'}>
-                <ListButton label={'Cancel'} icon={<ArrowBackIcon/>}/>
+                <ListButton label={'Cancel'} icon={false}/>
                 <SaveButton label="Save" variant="text" icon={false} endIcon={<ArrowForwardIcon/>}/>
             </SanitizedBox>
             {/*<SaveButton*/}
