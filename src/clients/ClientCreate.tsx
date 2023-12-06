@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { useMemo } from 'react';
-import { RichTextInput } from 'ra-input-rich-text';
+import {useMemo} from 'react';
+import {RichTextInput} from 'ra-input-rich-text';
 import {
     ArrayInput,
     AutocompleteInput,
@@ -18,20 +18,30 @@ import {
     usePermissions,
     useRedirect,
     useCreate,
-    useCreateSuggestionContext,
+    useCreateSuggestionContext, ListButton,
 } from 'react-admin';
-import { useFormContext, useWatch } from 'react-hook-form';
-import { Button, Dialog, DialogActions, DialogContent } from '@mui/material';
+import {useFormContext, useWatch} from 'react-hook-form';
+import {Box, BoxProps, Button, Dialog, DialogActions, DialogContent} from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
+const SanitizedBox = ({
+                          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                          fullWidth,
+                          ...props
+                      }: BoxProps & { fullWidth?: boolean }) => <Box {...props} />;
 
 const PostCreateToolbar = () => {
     const notify = useNotify();
     const redirect = useRedirect();
-    const { reset } = useFormContext();
+    const {reset} = useFormContext();
 
     return (
         <Toolbar>
-            <SaveButton label="Save" variant="text" icon={false} endIcon={<ArrowForwardIcon/>} />
+            <SanitizedBox display={'flex'} width={300} justifyContent={'space-between'}>
+                <ListButton label={'Cancel'} icon={false}/>
+                <SaveButton label="Save" variant="text" icon={false} endIcon={<ArrowForwardIcon/>}/>
+            </SanitizedBox>
             {/*<SaveButton*/}
             {/*    label="post.action.save_and_show"*/}
             {/*    type="button"*/}
@@ -95,7 +105,7 @@ const ClientCreate = () => {
         }),
         []
     );
-    const { permissions } = usePermissions();
+    const {permissions} = usePermissions();
     const dateDefaultValue = useMemo(() => new Date(), []);
 
 
@@ -104,7 +114,7 @@ const ClientCreate = () => {
     return (
         <Create redirect="edit">
             <SimpleFormConfigurable
-                toolbar={<PostCreateToolbar />}
+                toolbar={<PostCreateToolbar/>}
                 defaultValues={defaultValues}
             >
                 <TextInput
@@ -194,19 +204,19 @@ const ClientCreate = () => {
 export default ClientCreate;
 
 const DependantInput = ({
-    dependency,
-    children,
-}: {
+                            dependency,
+                            children,
+                        }: {
     dependency: string;
     children: JSX.Element;
 }) => {
-    const dependencyValue = useWatch({ name: dependency });
+    const dependencyValue = useWatch({name: dependency});
 
     return dependencyValue ? children : null;
 };
 
 const CreateUser = () => {
-    const { filter, onCancel, onCreate } = useCreateSuggestionContext();
+    const {filter, onCancel, onCreate} = useCreateSuggestionContext();
     const [value, setValue] = React.useState(filter || '');
     const [create] = useCreate();
 
@@ -241,10 +251,10 @@ const CreateUser = () => {
                     <AutocompleteInput
                         source="role"
                         choices={[
-                            { id: '', name: 'None' },
-                            { id: 'admin', name: 'Admin' },
-                            { id: 'user', name: 'User' },
-                            { id: 'user_simple', name: 'UserSimple' },
+                            {id: '', name: 'None'},
+                            {id: 'admin', name: 'Admin'},
+                            {id: 'user', name: 'User'},
+                            {id: 'user_simple', name: 'UserSimple'},
                         ]}
                         validate={[required()]}
                     />

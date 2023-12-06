@@ -6,9 +6,7 @@ export default () => {
     const record = useRecordContext();
     return (
         <>
-            {record
-                ? translate('post.edit.title', { title: record.title })
-                : ''}
+            {record ? <span>{`${record.firstName} ${record.lastName}`} </span> : ''}
         </>
     );
 };
