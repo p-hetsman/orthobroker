@@ -19,7 +19,8 @@ import analytics from "./analytics";
 import contacts from "./contacts";
 import contactUs from "./contactUs";
 import inProgress from "./inProgress";
-import designs from "./designs"
+import designs from "./designs";
+import shapediver from "./shapediver"
 
 
 export const App = () => (
@@ -41,6 +42,7 @@ export const App = () => (
         <Resource name="Measurement_data" {...inProgress} />
         <Resource name="designs" {...designs} options={{ label: 'Designs' }} />
         <Resource name="orders" {...inProgress} />
+        <Resource name="shapeDiver"  {...shapediver} />
 
         {/*     <Resource name="events" {...events} />
     <Resource name="contacts" {...contacts} />
