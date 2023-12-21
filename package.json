@@ -12,9 +12,9 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
-    "@shapediver/viewer": "2.9.1",
-    "@shapediver/viewer.features.interaction": "2.9.1",
-    "@shapediver/viewer.shared.types": "^2.12.1",
+    "@shapediver/viewer": "2.12.1",
+    "@shapediver/viewer.features.interaction": "2.12.1",
+    "@shapediver/viewer.shared.types": "2.12.1",
     "lodash": "^4.17.21",
     "parcel-bundler": "^1.6.1",
     "ra-data-fakerest": "^4.16.1",

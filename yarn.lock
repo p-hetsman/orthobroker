@@ -1540,37 +1540,12 @@
   resolved "https://registry.npmjs.org/@shapediver/api.geometry-api-dto-v2/-/api.geometry-api-dto-v2-1.11.0.tgz"
   integrity sha512-ZFnXknTdas5RLcASxgcJdUfgFqDDh+28HX+rgZm7Ix3wF96Ldv+rXjXUgAzknHXSCiS0nJ2qchRHWtKcKKbRRw==
 
-"@shapediver/api.geometry-api-dto-v2@~1.8.0":
-  version "1.8.1"
-  resolved "https://registry.npmjs.org/@shapediver/api.geometry-api-dto-v2/-/api.geometry-api-dto-v2-1.8.1.tgz"
-  integrity sha512-4IFwLxxvNBPTCxPXuLrRn9jAE+5G4qgXV9ps/tiRANypHU3WJtDLGRfgJX7Oy3l3RzEc8qWwz2vhaWjCN3ZVWw==
-
-"@shapediver/api.geometry-api-dto-v2@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.npmjs.org/@shapediver/api.geometry-api-dto-v2/-/api.geometry-api-dto-v2-1.8.0.tgz"
-  integrity sha512-Su3C8rCixmiCUiRYCK7jgy6Wzsi5n1GCahK9i4FLgt77+CoDR3YURevImiNKZiOi+AJy/Zu7X95PNgzadVZ2hQ==
-
-"@shapediver/sdk.geometry-api-sdk-core@~1.2.5":
-  version "1.2.6"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.geometry-api-sdk-core/-/sdk.geometry-api-sdk-core-1.2.6.tgz"
-  integrity sha512-40cEjg6Ehbfbn8Sf5MovqWU0i/56UWLupk7aIxoKKnXNEWwOzfebdCOPbjb9j2sW/mR0Gl8ed0cOu+uEzsZ3Kg==
-  dependencies:
-    axios "~1.4.0"
-
 "@shapediver/sdk.geometry-api-sdk-core@~1.3.1":
   version "1.3.1"
   resolved "https://registry.npmjs.org/@shapediver/sdk.geometry-api-sdk-core/-/sdk.geometry-api-sdk-core-1.3.1.tgz"
   integrity sha512-IBV3XAI5eeRAaD9hkSWZTQSiF5jWMwE+R6XzcEWOWW7fnuK+GpDEWmXNlefV8lpqpVKrMzFFVzg7gKrj1mnhig==
   dependencies:
     axios "~1.4.0"
-
-"@shapediver/sdk.geometry-api-sdk-v2@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.geometry-api-sdk-v2/-/sdk.geometry-api-sdk-v2-1.4.0.tgz"
-  integrity sha512-QWYoedSRVtjzhEiofuJmTu3RdyimemO075FU6KOG329L9Z7aE6eHV2Y5fe3VUBxlkvDMi83rc+Mxq+2jrBy3dQ==
-  dependencies:
-    "@shapediver/api.geometry-api-dto-v2" "~1.8.0"
-    "@shapediver/sdk.geometry-api-sdk-core" "~1.2.5"
 
 "@shapediver/sdk.geometry-api-sdk-v2@1.6.0":
   version "1.6.0"
@@ -1580,22 +1555,10 @@
     "@shapediver/api.geometry-api-dto-v2" "~1.11.0"
     "@shapediver/sdk.geometry-api-sdk-core" "~1.3.1"
 
-"@shapediver/sdk.sdtf-core@~1.3.1":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-core/-/sdk.sdtf-core-1.3.1.tgz"
-  integrity sha512-s59FvtdFbbubVYOdrs4eR2dDtymNcgx4gAFmtYe2Xjwo8EUC8a0eyEtYVd6lZmug9utmgUdnBwQGhJVU0XrPnA==
-
 "@shapediver/sdk.sdtf-core@~1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-core/-/sdk.sdtf-core-1.4.0.tgz"
   integrity sha512-P3REHDI94R6G2M3duBPxvb40euO6LtbVVPyTfodoSOSieb+882nwWie5yuRmxu8c+EvzliMX4ZfZz42jvS/Tcg==
-
-"@shapediver/sdk.sdtf-geometry@~1.3.1":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-geometry/-/sdk.sdtf-geometry-1.3.1.tgz"
-  integrity sha512-NFqah6MPrbx6YiHhM1sUSisSVLle4DNaLRsbrlU+fZLsjCXR0Ll6KE5+0CXrGTLii++Tb1znQDMwgkJgjBxDIw==
-  dependencies:
-    "@shapediver/sdk.sdtf-core" "~1.3.1"
 
 "@shapediver/sdk.sdtf-geometry@~1.4.0":
   version "1.4.0"
@@ -1604,14 +1567,6 @@
   dependencies:
     "@shapediver/sdk.sdtf-core" "~1.4.0"
 
-"@shapediver/sdk.sdtf-primitives@~1.3.1":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-primitives/-/sdk.sdtf-primitives-1.3.1.tgz"
-  integrity sha512-cTTmnYPOxil841+TI+D9HCe4E2+cWQ/85I4qNwx7rD5f96ol9vjziJzr59HSJCcblNW7sabkrdD09UVJ7ZZtuQ==
-  dependencies:
-    "@shapediver/sdk.sdtf-core" "~1.3.1"
-    decimal.js "~10.4.3"
-
 "@shapediver/sdk.sdtf-primitives@~1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-primitives/-/sdk.sdtf-primitives-1.4.0.tgz"
@@ -1619,17 +1574,6 @@
   dependencies:
     "@shapediver/sdk.sdtf-core" "~1.4.0"
     decimal.js "~10.4.3"
-
-"@shapediver/sdk.sdtf-v1@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/@shapediver/sdk.sdtf-v1/-/sdk.sdtf-v1-1.3.1.tgz"
-  integrity sha512-uSx7pcSR42DqRf8EnseNMFcyAggz/4Ol11dQCvfFwKgNatM7mh6Pz0ged/EVKNVfzSEKPf3t1UMriTq5RCvCHA==
-  dependencies:
-    "@shapediver/sdk.sdtf-core" "~1.3.1"
-    "@shapediver/sdk.sdtf-geometry" "~1.3.1"
-    "@shapediver/sdk.sdtf-primitives" "~1.3.1"
-    axios "~1.4.0"
-    browser-or-node "2.1.1"
 
 "@shapediver/sdk.sdtf-v1@1.4.0":
   version "1.4.0"
@@ -1642,277 +1586,270 @@
     axios "~1.4.0"
     browser-or-node "2.1.1"
 
-"@shapediver/viewer.data-engine.data-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.data-engine/-/viewer.data-engine.data-engine-2.9.1.tgz"
-  integrity sha512-v72z65OSvhfHbtTKSv/GLAfH8p54TrbNgpz187lrA7IOJnKPPmyyMXW5h3PEbwUV3iOE6WeJpTfo0LkNvP2zJQ==
+"@shapediver/viewer.data-engine.data-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.data-engine/-/viewer.data-engine.data-engine-2.12.1.tgz"
+  integrity sha512-VUC6MV+KzerECTgnHBu8LNAKBexBo/DzFnJqOqGnL1GpVUs/ipE8uRdZWvOUqrWHy+6JJ8YfevZ+UKqOAuiY3g==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.geometry-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.html-element-anchor-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.material-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.sdtf-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.tag3d-engine" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.geometry-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.html-element-anchor-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.material-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.sdtf-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.tag3d-engine" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.geometry-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.geometry-engine/-/viewer.data-engine.geometry-engine-2.9.1.tgz"
-  integrity sha512-2ZtNz8fVunSA+aRvJxemUCGef2NvHPN6kzuouvyiawWquPeNUmwJNjuhxEXaqee/p4ShRwuHb8eIf+nY+zqZiA==
+"@shapediver/viewer.data-engine.geometry-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.geometry-engine/-/viewer.data-engine.geometry-engine-2.12.1.tgz"
+  integrity sha512-PaAI7StpR1u1IcRSxLrQy7PJy22yP/77ZbEfLlOJxIT1ORGQSszaF6P7S+DR2st3vuk8xoKDn+5RhvG1uWGC6A==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.material-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.rendering-engine.camera-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.light-engine" "2.9.1"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.material-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.rendering-engine.camera-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.light-engine" "2.12.1"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.gltf-converter@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.gltf-converter/-/viewer.data-engine.gltf-converter-2.9.1.tgz"
-  integrity sha512-Jye9WMW5V1dtcZRfVrxP0gVHQCRVqpJr3V1PmdhbzMORYZ+m/e6jQrrqmuYL90CkDOmQqMVai1EKyhiSAtDVbw==
+"@shapediver/viewer.data-engine.gltf-converter@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.gltf-converter/-/viewer.data-engine.gltf-converter-2.12.1.tgz"
+  integrity sha512-fMux4nlmEulATTAY8kkvqxxyZsW7Em+FTF5RzpxTt28vmbqJruFrqYjWGPn8S3S7vOhmAbJpvrsvUjIHjCqc6A==
   dependencies:
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
-    "@shapediver/viewer.utils.texture-unifier" "1.0.3"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.texture-unifier" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.html-element-anchor-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.html-element-anchor-engine/-/viewer.data-engine.html-element-anchor-engine-2.9.1.tgz"
-  integrity sha512-dx9whPb+lglsGMqv0ZzwZ4oXI7e6vmVEHwAbbhLBYSpx8b9lxQYHr4mA4fv8qfmhQBpbnj1ciN2bl5hoh4Kvdg==
+"@shapediver/viewer.data-engine.html-element-anchor-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.html-element-anchor-engine/-/viewer.data-engine.html-element-anchor-engine-2.12.1.tgz"
+  integrity sha512-g+T+z5L3Dk6p8SEAi8r7xXHs4QCqqm/bN06HKj4P6eCbAwTPx1NtBf+v8QcwmgcvNfRwy6KQfza1Y1HexkXStg==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.material-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.material-engine/-/viewer.data-engine.material-engine-2.9.1.tgz"
-  integrity sha512-KhzW7F4TQ2v6corCxUZMH47v18ehgOM/bkZ+VsvOS63VevvOtFfwrdARoD+Tbh/SDuUcpMvMIfedawP8w/lYEA==
+"@shapediver/viewer.data-engine.material-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.material-engine/-/viewer.data-engine.material-engine-2.12.1.tgz"
+  integrity sha512-k41MopIWwb/JWpVEd5J/2K2Al2Jb31ELqG/3T30H09+39VShrnrrff8ZQGO3D3I+UIk4Of54e8KMF838GLjFnw==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.sdtf-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.sdtf-engine/-/viewer.data-engine.sdtf-engine-2.9.1.tgz"
-  integrity sha512-tA8XHvBdVtPxIjm6+A+2cPmw2h9HiJWPEoG8fqQJtqtWf/oSpepVZ6sy6mgCrKFze+kSUiqfsFyZAVtKNybaXw==
+"@shapediver/viewer.data-engine.sdtf-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.sdtf-engine/-/viewer.data-engine.sdtf-engine-2.12.1.tgz"
+  integrity sha512-pP9EKlyMlOXBqhGadDaUkM8LRBd5eyh2IWQT3aPem9HhvozhXhTFuIyBA4gN7Xp9dfOt+Vt7gWBmNSjz6npNYw==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/sdk.sdtf-v1" "1.3.1"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/sdk.sdtf-v1" "1.4.0"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.shared-types@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.shared-types/-/viewer.data-engine.shared-types-2.9.1.tgz"
-  integrity sha512-R6SxMjy42zPzDlXjFlw+FpeWmCcpRRLcTeuBH3Ns0NQcSlx241FGpK+S69sAnVrnGqeYUXztZVjqsHyyZ7DJVQ==
+"@shapediver/viewer.data-engine.shared-types@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.shared-types/-/viewer.data-engine.shared-types-2.12.1.tgz"
+  integrity sha512-AexmIThBCi0zp3yi5gtQwYG6jxo1ci4/dPuPweSw7O6gT91sfabggl3WEQke80pzd2Un1SbguOnW4gMUhDEkaA==
   dependencies:
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     axios "^1.2.6"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.data-engine.tag3d-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.tag3d-engine/-/viewer.data-engine.tag3d-engine-2.9.1.tgz"
-  integrity sha512-06vqvYQqw4dDNOptniU8Tb9wGi25op3Dg2YCEwa2+9UobaFwEZ2Pwae0S0lNWiDIW+LQCqjsKiEVl1MTdBnFSQ==
+"@shapediver/viewer.data-engine.tag3d-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.data-engine.tag3d-engine/-/viewer.data-engine.tag3d-engine-2.12.1.tgz"
+  integrity sha512-mXsng228dPwOUMoEnMCBxUok94RkDx50oZasfpvlADbqhmd2s+JUysc9VDe6fgmd5a2v6yYtLVGqD8OL+SEmUg==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
-    "@types/three" "0.149.0"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
+    "@types/three" "0.152.0"
     axios "^1.2.6"
     gl-matrix "3.3.0"
-    three "0.149.0"
+    three "0.152.2"
 
-"@shapediver/viewer.features.interaction@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.features.interaction/-/viewer.features.interaction-2.9.1.tgz"
-  integrity sha512-vAT9weg74cMAtgxcW2hAqnd9YZcsFGDPi3LBqSykYPEpFlldcmj0Mcs/VwXicLpgxRwUQmCOL+d5AAll6LOIbg==
+"@shapediver/viewer.features.interaction@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.features.interaction/-/viewer.features.interaction-2.12.1.tgz"
+  integrity sha512-OSGEpvSqcM6FGKJHXkD7sKl3MoLbzpFw0hKEIlC+WjUYGljqTq6PN9mqhMT5yVv2TF+w08WDztx0mqKaE4Kd2Q==
   dependencies:
-    "@shapediver/viewer.rendering-engine.intersection-engine" "2.9.1"
+    "@shapediver/viewer.rendering-engine.intersection-engine" "2.12.1"
     detect-it "4.0.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.main.creation-control-center@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.main.creation-control-center/-/viewer.main.creation-control-center-2.9.1.tgz"
-  integrity sha512-TPftI6JvS8mApMZxd+dAlR1po/Cn9A7rUS3oNWapNwlZZp2A9/iqXB8Njr12gytRUsfSYnCpqcJdeGGoTSn3pw==
+"@shapediver/viewer.main.creation-control-center@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.main.creation-control-center/-/viewer.main.creation-control-center-2.12.1.tgz"
+  integrity sha512-QInC2MJ88S9uW3Bb8NZqIkdfjGUZr5ADLDXxysRwpfS7+g6k45saIeJMeVgxuEA9ZlnOvzQ+czQa8y82VNq2Ng==
   dependencies:
-    "@shapediver/api.geometry-api-dto-v2" "1.8.0"
-    "@shapediver/viewer.rendering-engine-threejs.standard" "2.9.1"
-    "@shapediver/viewer.rendering-engine.camera-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.session-engine.session-engine" "2.9.1"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.rendering-engine-threejs.standard" "2.12.1"
+    "@shapediver/viewer.rendering-engine.camera-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.session-engine.session-engine" "2.12.1"
+    "@shapediver/viewer.settings" "0.5.7"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine-threejs.standard@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine-threejs.standard/-/viewer.rendering-engine-threejs.standard-2.9.1.tgz"
-  integrity sha512-MYYGDLbjb/F7guj5Y5GVWr+ieUH1HMNyIuWETAEezWIYyu6t8VufP6AcXB83e7WkkSTl6IRsMopMxBuRMmG5VQ==
+"@shapediver/viewer.rendering-engine-threejs.standard@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine-threejs.standard/-/viewer.rendering-engine-threejs.standard-2.12.1.tgz"
+  integrity sha512-8qveLLvJQbxyykUzJhwt9kzNf1w+X28phzocKcq6+xYNHHcGItgdZqOmyuUSTmtHQSqU5dId9rA46a8MXJqjHw==
   dependencies:
-    "@shapediver/viewer.rendering-engine.animation-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.animation-frame-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.camera-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.canvas-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.intersection-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.light-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.rendering-engine.animation-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.animation-frame-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.camera-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.canvas-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.intersection-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.light-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     "@tweenjs/tween.js" "^18.6.4"
     "@types/stats.js" "^0.17.0"
-    "@types/three" "0.149.0"
+    "@types/three" "0.152.0"
     gl-matrix "3.3.0"
+    postprocessing "6.33.1"
     stats.js "^0.17.0"
-    three "0.149.0"
+    three "0.152.2"
 
-"@shapediver/viewer.rendering-engine.animation-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.animation-engine/-/viewer.rendering-engine.animation-engine-2.9.1.tgz"
-  integrity sha512-ISaeSqorIwAiUOHRG/for861P6Y1GERoKj2XQYBOva9fM4yxOnrZbuwPnV7Xt0YQ8w/iNT6uQCK9MnQzSE8B+w==
+"@shapediver/viewer.rendering-engine.animation-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.animation-engine/-/viewer.rendering-engine.animation-engine-2.12.1.tgz"
+  integrity sha512-YpF+POz0wmEyhA7uJmB8k0QwPVLvZ/CthHaDZsDQcxB0N7y6R31gjpc+gH8Vf3UuhsQysjLXlf3w8Rir1s7uOA==
   dependencies:
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     "@tweenjs/tween.js" "^18.6.4"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.animation-frame-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.animation-frame-engine/-/viewer.rendering-engine.animation-frame-engine-2.9.1.tgz"
-  integrity sha512-KWV/DwxVS0fcIWU/atyvouASpRrqYGMpDdoGgqZ5AnjmPB/bJM7+xT/nZ6S0ofrftMdx77hxL37+M0yUqAubMA==
+"@shapediver/viewer.rendering-engine.animation-frame-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.animation-frame-engine/-/viewer.rendering-engine.animation-frame-engine-2.12.1.tgz"
+  integrity sha512-uhe4nqAF3wsVcH5eRVPnw3D70EycRYfo6ZNsKc5m7qKzL2ozyUeNxHPGvvBg7GuBBNf9+IBF04w6H7A2Jqu7dw==
   dependencies:
-    "@shapediver/viewer.rendering-engine.animation-engine" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
+    "@shapediver/viewer.rendering-engine.animation-engine" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
     "@tweenjs/tween.js" "^18.6.4"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.camera-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.camera-engine/-/viewer.rendering-engine.camera-engine-2.9.1.tgz"
-  integrity sha512-6zaQmvkE5yx69Iaigiz1rknVJc/aJ/VNiBuMoIpauvXSkgPUHavq87rK4XhO1B6sa2WTCV471vbPL5Z5m/Fwhg==
+"@shapediver/viewer.rendering-engine.camera-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.camera-engine/-/viewer.rendering-engine.camera-engine-2.12.1.tgz"
+  integrity sha512-3CazVKWs5W6u1kWGN7/EYuks0kxO+Md7gLrEs/vHxXN3rMevg0x60mN/0MST/HoelxeZBsS027/SfscYjYpOiw==
   dependencies:
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.settings" "0.5.7"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     "@tweenjs/tween.js" "^18.6.4"
     detect-it "4.0.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.canvas-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.canvas-engine/-/viewer.rendering-engine.canvas-engine-2.9.1.tgz"
-  integrity sha512-Xi5whAAaEuShRxnv4VTq3y0kOi3AMXvblqsBq3NtkZKMH3WwcVKtH9x/E6LtiNErdLadQ+8jts5ZDKeLtXsIZQ==
+"@shapediver/viewer.rendering-engine.canvas-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.canvas-engine/-/viewer.rendering-engine.canvas-engine-2.12.1.tgz"
+  integrity sha512-LXLgfcNFwBJswFAIMfyvgzSPm7vJIDFqZ+JGqTb9LxnRVvI9vjMyNsYlPpJ0AX30rrlYrlHYTk3VqieHYhPj+Q==
   dependencies:
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.intersection-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.intersection-engine/-/viewer.rendering-engine.intersection-engine-2.9.1.tgz"
-  integrity sha512-D7PTH5fTAxoZ25S3swTDdpbcsQbl5w7SzhnO3I9yQtTyS7+1yThc2PFccvORVxCyMt+RFfy5MJLFVgLXc6yTLw==
+"@shapediver/viewer.rendering-engine.intersection-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.intersection-engine/-/viewer.rendering-engine.intersection-engine-2.12.1.tgz"
+  integrity sha512-JyJqmI+RoQlwdYAiCqkyubmrIDOgBfpnzn1+JYRCpNsSZ8mGrhk8XfkdPwi2aDwBQoSfehX+r/87rQDTtL+snA==
   dependencies:
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     detect-it "4.0.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.light-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.light-engine/-/viewer.rendering-engine.light-engine-2.9.1.tgz"
-  integrity sha512-VeU7d4lxCSzbDZZkoaygDFoViVg+H7dV2Tw69kefsJKVM3/xusyr0aoMiuzbSSyPkMJwKLP0/Qpi4+eCLW7Ufw==
+"@shapediver/viewer.rendering-engine.light-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.light-engine/-/viewer.rendering-engine.light-engine-2.12.1.tgz"
+  integrity sha512-2YnGJul/LKvHdHeSOqRbHsWObr0QSvROyJA8JKBIUEXO0me30DUPr73Tz8BgR0RZmONnz4DnwAWkf1XWH9aa7A==
   dependencies:
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.settings" "0.5.7"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.rendering-engine.rendering-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.rendering-engine/-/viewer.rendering-engine.rendering-engine-2.9.1.tgz"
-  integrity sha512-iUeUX2EZTJXdqn4m1y7KbS2HeOxkT4tJoAv+uqWOqW6cuxShXTNdfek6f5MVfmRLeMKFpRhVgmkJDtwtHDEOmg==
+"@shapediver/viewer.rendering-engine.rendering-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.rendering-engine.rendering-engine/-/viewer.rendering-engine.rendering-engine-2.12.1.tgz"
+  integrity sha512-YiTCBASA467e/lmdiaf2YOQVKWfJWA82E2RzsX6AbycunxcqQY3SVv3aKIN4E1ln4zozh5FsqsMveqLGu9U3xQ==
   dependencies:
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.session-engine.session-engine@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.session-engine.session-engine/-/viewer.session-engine.session-engine-2.9.1.tgz"
-  integrity sha512-qQ9DQViiudeYRcHmPvz7qLHDvi6k2SjI9iiNnb7BD5k0H7ZCoYrbwXTQ/tFC6qFuRMAeyNdFHn2O0girsuJxow==
+"@shapediver/viewer.session-engine.session-engine@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.session-engine.session-engine/-/viewer.session-engine.session-engine-2.12.1.tgz"
+  integrity sha512-nZYzTh4aCI5ae40VIbpXWM97t5Ty3uyAmyAWH/3nu5HgI8ZAlidu+cbhDkefG2DkHvzE6OfewykEiGdxn3Ry4w==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.data-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.data-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.settings" "0.5.7"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     "@shapediver/viewer.utils.mime-type" "1.0.0"
     axios "^1.2.6"
     gl-matrix "3.3.0"
-
-"@shapediver/viewer.settings@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.settings/-/viewer.settings-0.4.2.tgz"
-  integrity sha512-y469bS1kmQMokLlua1LgFG/Mx28T64ofpz2SPB891b46WHD67qzdsiije+W0ZWWl4pc6I5CVOqREw1jCe/YB/Q==
-  dependencies:
-    joi "^17.4.2"
-    uuid "^8.3.2"
 
 "@shapediver/viewer.settings@0.5.7":
   version "0.5.7"
@@ -1927,25 +1864,12 @@
   resolved "https://registry.npmjs.org/@shapediver/viewer.shared.build-data/-/viewer.shared.build-data-2.12.1.tgz"
   integrity sha512-Yr//nuYjXJ4M+rclhwaji6E5mwdAs1QNw7YO46fFF19eTuxreYplEIpmD9m6y0I5+pCIJ6Jv1bZLUCkpKFg92w==
 
-"@shapediver/viewer.shared.build-data@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.build-data/-/viewer.shared.build-data-2.9.1.tgz"
-  integrity sha512-sQWqtcO3kvF5Swky8OG034Em6EIL/yWHu2WRlxHRsSsBFjsR2KM42dhDMjix+Yvb9Gils7tVcYANpBLLlBvIcg==
-
 "@shapediver/viewer.shared.math@2.12.1":
   version "2.12.1"
   resolved "https://registry.npmjs.org/@shapediver/viewer.shared.math/-/viewer.shared.math-2.12.1.tgz"
   integrity sha512-pO91CVYLoY0CEmWPlN2FHoBjdDsVtEnzglewKZsOPVqCrDcenetsEnMjHK838zotJS6jZpZuKyYYayFWbn5LsQ==
   dependencies:
     "@shapediver/viewer.shared.services" "2.12.1"
-    gl-matrix "3.3.0"
-
-"@shapediver/viewer.shared.math@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.math/-/viewer.shared.math-2.9.1.tgz"
-  integrity sha512-9lBjSvWpODI5tdDiVtDlVBt/nB41y2Wz6BHWNzB2Ufzgb+q6xVu2bQhbr5xkVj2/EG5MqMCzSTZb+7KPxTFz/g==
-  dependencies:
-    "@shapediver/viewer.shared.services" "2.9.1"
     gl-matrix "3.3.0"
 
 "@shapediver/viewer.shared.node-tree@2.12.1":
@@ -1958,17 +1882,6 @@
     "@types/three" "0.152.0"
     gl-matrix "3.3.0"
     three "0.152.2"
-
-"@shapediver/viewer.shared.node-tree@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.node-tree/-/viewer.shared.node-tree-2.9.1.tgz"
-  integrity sha512-gP3449TnARrOg5aC2YTbyXjr6OG1Ucw7528QYTwwN5N3z2C9j/uLIiG1hGxZvn8gVQQLiESsDYh/h2PD86isGw==
-  dependencies:
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@types/three" "0.149.0"
-    gl-matrix "3.3.0"
-    three "0.149.0"
 
 "@shapediver/viewer.shared.services@2.12.1":
   version "2.12.1"
@@ -1988,25 +1901,15 @@
     ua-parser-js "^0.7.28"
     uuid "^9.0.0"
 
-"@shapediver/viewer.shared.services@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.services/-/viewer.shared.services-2.9.1.tgz"
-  integrity sha512-zVnJDpLINQhKkADR4pe1sHy2AR7oKi/XOmf6YLFLZ0UuNXZGIx63IBxWboZaHmkPHS5rLw3ih3BmRLIAg/F9JQ==
+"@shapediver/viewer.shared.texture-unifier@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.texture-unifier/-/viewer.shared.texture-unifier-2.12.1.tgz"
+  integrity sha512-hZrpyI+NQuBkE0vLYnQgwMuo0FsX3DYR2/zw/+7J0Xituh7LjjBId6E0Wk9IkuvwmNtJkFg6RgtuuJ2wJGnSsA==
   dependencies:
-    "@ctrl/tinycolor" "^3.4.0"
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@types/dompurify" "^2.3.1"
-    "@types/ua-parser-js" "^0.7.36"
-    "@types/uuid" "^9.0.0"
-    axios "^1.2.6"
-    dompurify "^2.3.3"
-    gl-matrix "3.3.0"
-    ua-parser-js "^0.7.28"
-    uuid "^9.0.0"
+    "@types/three" "0.152.0"
+    three "0.152.2"
 
-"@shapediver/viewer.shared.types@^2.12.1":
+"@shapediver/viewer.shared.types@2.12.1":
   version "2.12.1"
   resolved "https://registry.npmjs.org/@shapediver/viewer.shared.types/-/viewer.shared.types-2.12.1.tgz"
   integrity sha512-XdlFlxTBWdQVF6BCza5HmQVNUWqWNMm+8Jf5vQwzpw8eYrMYldD6lrqZtf1iBborfTtTwKvYrLRZ42rUspLJbw==
@@ -2017,57 +1920,41 @@
     "@shapediver/viewer.shared.services" "2.12.1"
     gl-matrix "3.3.0"
 
-"@shapediver/viewer.shared.types@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.shared.types/-/viewer.shared.types-2.9.1.tgz"
-  integrity sha512-3STZMRZj4fP+2reU4ZWZP+/MVKlvhUErRFtUh6CZOZM3vw8kleTgXPQEifAN1/kRixPWq9BMTOoTV6saqH6+ng==
-  dependencies:
-    "@shapediver/sdk.sdtf-v1" "1.3.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    gl-matrix "3.3.0"
-
 "@shapediver/viewer.utils.mime-type@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@shapediver/viewer.utils.mime-type/-/viewer.utils.mime-type-1.0.0.tgz"
   integrity sha512-eG3zuHi2j94i3wvsVQuVHaEPYDTcWnHUZ+omZNiY5Rr7CGxZl3cpnU4j4uf3jBNUKXIR7VOMmloGIBixNt05Bg==
 
-"@shapediver/viewer.utils.texture-unifier@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@shapediver/viewer.utils.texture-unifier/-/viewer.utils.texture-unifier-1.0.3.tgz"
-  integrity sha512-znGT750zqQN5X/2hMBM4lKc9fZxSg5eN2zVmyX2V1m8tyDjy2HZLEsYvY3CjTj+h5MFmshFCBKHYO31ATwxbqQ==
-
-"@shapediver/viewer@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/@shapediver/viewer/-/viewer-2.9.1.tgz"
-  integrity sha512-w0kzHMSbcchDFIksRDbd3Rs54sXx3NbDLrOq7wWNVrAItqpcx4e1V0b7ObuXUHLDnh5TpqXUh76eDW/gAU12qA==
+"@shapediver/viewer@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.npmjs.org/@shapediver/viewer/-/viewer-2.12.1.tgz"
+  integrity sha512-HVBrleFvNMhGeldAjNixDYg7eGePgqeRYTO3FhQFKnnMcgoSUUeA6jFikLNamkMvluf5hlZdK1UygudkUsVGIA==
   dependencies:
-    "@shapediver/sdk.geometry-api-sdk-v2" "1.4.0"
-    "@shapediver/viewer.data-engine.data-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.geometry-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.gltf-converter" "2.9.1"
-    "@shapediver/viewer.data-engine.material-engine" "2.9.1"
-    "@shapediver/viewer.data-engine.shared-types" "2.9.1"
-    "@shapediver/viewer.main.creation-control-center" "2.9.1"
-    "@shapediver/viewer.rendering-engine-threejs.standard" "2.9.1"
-    "@shapediver/viewer.rendering-engine.animation-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.camera-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.light-engine" "2.9.1"
-    "@shapediver/viewer.rendering-engine.rendering-engine" "2.9.1"
-    "@shapediver/viewer.session-engine.session-engine" "2.9.1"
-    "@shapediver/viewer.settings" "0.4.2"
-    "@shapediver/viewer.shared.build-data" "2.9.1"
-    "@shapediver/viewer.shared.math" "2.9.1"
-    "@shapediver/viewer.shared.node-tree" "2.9.1"
-    "@shapediver/viewer.shared.services" "2.9.1"
-    "@shapediver/viewer.shared.types" "2.9.1"
+    "@shapediver/sdk.geometry-api-sdk-v2" "1.6.0"
+    "@shapediver/viewer.data-engine.data-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.geometry-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.gltf-converter" "2.12.1"
+    "@shapediver/viewer.data-engine.material-engine" "2.12.1"
+    "@shapediver/viewer.data-engine.shared-types" "2.12.1"
+    "@shapediver/viewer.main.creation-control-center" "2.12.1"
+    "@shapediver/viewer.rendering-engine-threejs.standard" "2.12.1"
+    "@shapediver/viewer.rendering-engine.animation-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.camera-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.light-engine" "2.12.1"
+    "@shapediver/viewer.rendering-engine.rendering-engine" "2.12.1"
+    "@shapediver/viewer.session-engine.session-engine" "2.12.1"
+    "@shapediver/viewer.settings" "0.5.7"
+    "@shapediver/viewer.shared.build-data" "2.12.1"
+    "@shapediver/viewer.shared.math" "2.12.1"
+    "@shapediver/viewer.shared.node-tree" "2.12.1"
+    "@shapediver/viewer.shared.services" "2.12.1"
+    "@shapediver/viewer.shared.types" "2.12.1"
     "@shapediver/viewer.utils.mime-type" "1.0.0"
     "@types/qrcode" "^1.5.0"
-    "@types/three" "0.149.0"
+    "@types/three" "0.152.0"
     gl-matrix "3.3.0"
     qrcode "^1.5.0"
-    three "0.149.0"
+    three "0.152.2"
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
@@ -2476,13 +2363,6 @@
   version "0.17.3"
   resolved "https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.3.tgz"
   integrity sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==
-
-"@types/three@0.149.0":
-  version "0.149.0"
-  resolved "https://registry.npmjs.org/@types/three/-/three-0.149.0.tgz"
-  integrity sha512-fgNBm9LWc65ER/W0cvoXdC0iMy7Ke9e2CONmEr6Jt8sDSY3sw4DgOubZfmdZ747dkPhbQrgRQAWwDEr2S/7IEg==
-  dependencies:
-    "@types/webxr" "*"
 
 "@types/three@0.152.0":
   version "0.152.0"
@@ -7460,6 +7340,11 @@ posthtml@^0.15.1:
     posthtml-parser "^0.7.2"
     posthtml-render "^1.3.1"
 
+postprocessing@6.33.1:
+  version "6.33.1"
+  resolved "https://registry.npmjs.org/postprocessing/-/postprocessing-6.33.1.tgz"
+  integrity sha512-dUxDGNgBzkTYjzkDVDBIFqZ6zLbzeaqwk8r3ZCMrv08MBX1c68goS8CKvwYvZtltacKnSSBv5f66HQgSSEOEBQ==
+
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
@@ -8967,11 +8852,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
-
-three@0.149.0:
-  version "0.149.0"
-  resolved "https://registry.npmjs.org/three/-/three-0.149.0.tgz"
-  integrity sha512-tohpUxPDht0qExRLDTM8sjRLc5d9STURNrdnK3w9A+V4pxaTBfKWWT/IqtiLfg23Vfc3Z+ImNfvRw1/0CtxrkQ==
 
 three@0.152.2:
   version "0.152.2"
