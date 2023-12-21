@@ -19,7 +19,7 @@ const ShapeDiverModelPage = () => {
 
       // create a session
       const session = await shapediverViewer.createSession({
-        ticket: '41639793e6220bd3c2a7ad08376dc75b43cf34c0611f3e69fbfe09b75dc507cdcfe747a6fe8c00eb1fddf5c33912fe1249e1deee26a84ca87feca245a012aad71e2be9f65b6f83fbaeb0de14db7dbba29be67269d8e352f3ae5a0714d78f3d43167abe8ef981360d7d11a8757c075882417052fcc57b7491-9c47f5a9e42bcb70c7262a9cc549fcf1',
+        ticket: '64a05c454890d970439263c2badededdc851fdf9748fa1fe99de51eeda833455b835f3554b7d78dc61ccfef423554866798f2f656dea1d5650913643dbf3d2866b2fe5e480a9b4d4a6fd34ac87fc5e37173177dab55b56ddd37e36d2d3b6406457f8f44139bdcf-d1a29782ade1df82c1fe5b9ac6db981b',
         modelViewUrl: 'https://sdr7euc1.eu-central-1.shapediver.com',
         id: 'mySession',
       });
